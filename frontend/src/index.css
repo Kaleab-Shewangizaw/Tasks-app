@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,10 +6,20 @@
 
 @layer base{
   html{
-    
+    font-family: "Comfortaa", sans-serif;
   }
   body{
     background-color: #fdfeff;
     overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .input-box {
+    @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none;
+  }
+
+  .btn-primary {
+    @apply w-full text-sm bg-primary text-white p-2 rounded my-3 hover:bg-[#0D9479]; /* Updated hover color */
   }
 }
