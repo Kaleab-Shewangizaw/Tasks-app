@@ -1,8 +1,9 @@
 import React from 'react'
+import Navbar from '../../componenets/Navbar'
 
 const SignUp = () => {
   return (
-    <div>SignUp</div>
+    <div></div>
   )
 }
 
