@@ -12,6 +12,7 @@ export default {
         white: "#FFFFFF",
         black: "#000000",
         gray: "#808080",
+        hover: "#056158"
       }
     },
   },
